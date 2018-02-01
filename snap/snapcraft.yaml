@@ -7,6 +7,8 @@ description: |
 grade: stable
 confinement: devmode
 
+architectures: [armhf]
+
 parts:
   workspace:
     plugin: catkin
