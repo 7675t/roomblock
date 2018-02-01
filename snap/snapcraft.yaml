@@ -12,6 +12,7 @@ architectures: [armhf]
 parts:
   workspace:
     plugin: catkin
+    source: .
     rosdistro: kinetic
     catkin-packages: [roomblock_bringup, roomblock_description]
 
