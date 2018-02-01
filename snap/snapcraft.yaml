@@ -14,8 +14,7 @@ parts:
   workspace:
     plugin: catkin
     rosdistro: kinetic
-    source: .
-    source-subdir: .
+    source-space: roomblock
     catkin-packages: [roomblock_bringup, roomblock_description]
 
 apps:
