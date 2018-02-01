@@ -1,4 +1,4 @@
-# Roomblock
+# Roomblock [![Build Status](https://travis-ci.org/tork-a/roomblock.svg?branch=master)](https://travis-ci.org/tork-a/roomblock) [![Snap Status](https://build.snapcraft.io/badge/7675t/roomblock.svg)](https://build.snapcraft.io/user/7675t/roomblock)
 
 Roomblock is a robot platform consists of a Roomba, a Raspberry Pi 2,
 a RPLIDAR A2 and a mobile battery. It is good for the learning of the
