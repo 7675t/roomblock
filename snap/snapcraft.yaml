@@ -7,17 +7,18 @@ description: |
 grade: stable
 confinement: devmode
 
-architectures: [armhf]
+# Workaround for LP: #1677002.
+build-packages: [lsb-release]
 
 parts:
   workspace:
     plugin: catkin
-    source: .
     rosdistro: kinetic
+    source: .
     catkin-packages: [roomblock_bringup, roomblock_description]
 
 apps:
-  system:
+  launch:
     command: roslaunch roomblock_bringup roomblock.launch --screen
-    plugs: [network, network-bind]
     daemon: simple
+    plugs: [network, network-bind]
