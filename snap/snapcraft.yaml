@@ -7,6 +7,9 @@ description: |
 grade: stable
 confinement: devmode
 
+# Workaround for LP: #1677002.
+build-packages: [lsb-release]
+
 parts:
   workspace:
     plugin: catkin
